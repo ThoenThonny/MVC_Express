@@ -9,4 +9,8 @@ const connect = new Pool({
     port:"5432"
 })
 
+if(connect){
+    console.log("Connect DB Is Success");
+}
+
 export default connect;

@@ -2,7 +2,7 @@ import { v2 as cloudinary } from "cloudinary";
 import { CloudinaryStorage } from "multer-storage-cloudinary";
 
 cloudinary.config({
-  cloud_name: "Root", // Replace with your actual Cloudinary cloud name
+  cloud_name: "dvrdyhury", // Replace with your actual Cloudinary cloud name
   api_key: "973256366951842",
   api_secret: "xQeCAqwY2iIVHJsJFTCWKdthccU",
 });

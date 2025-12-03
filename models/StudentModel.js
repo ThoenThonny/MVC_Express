@@ -26,7 +26,6 @@ export default {
         data.gender,
         data.profile,
         data.email,
-        id
     ])
     return result.rows[0];
   },
@@ -41,7 +40,8 @@ export default {
         data.stu_name,
         data.gender,
         data.profile,
-        data.email
+        data.email,
+        id
     ]);
     return result.rows[0];
   },
